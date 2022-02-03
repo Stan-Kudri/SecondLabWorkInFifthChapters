@@ -42,9 +42,9 @@ var thirdValue = int.Parse(Console.ReadLine());
 var nOD = new EuclidAlgorithm();
 Console.WriteLine(nOD.GreatestCommonDivisor(firstValue, secondValue, thirdValue));
 
-int GreaterNumber(int firstV, int secondV) => Math.Max(firstV, secondV);
+int GreaterNumber(int firstV, int secondV) => firstV > secondV ? firstV : secondV;
 
-void SwapValue(ref int firstV, ref int secondV)
+void Swap(ref int firstV, ref int secondV)
 {
     var value = firstV;
     firstV = secondV;
@@ -85,6 +85,6 @@ int FibonacciNumber(int number)
         return 0;
     if (number == 1 || number == 2)
         return 1;
-    return FibonacciNumber(number - 1) + FibonacciNumber(number-2);
+    return FibonacciNumber(number - 1) + FibonacciNumber(number - 2);
 }
 

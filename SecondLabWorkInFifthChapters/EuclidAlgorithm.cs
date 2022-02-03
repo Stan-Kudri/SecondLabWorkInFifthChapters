@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SecondLabWorkInFifthChapters
+﻿namespace SecondLabWorkInFifthChapters
 {
     public class EuclidAlgorithm
-    {        
+    {
         public EuclidAlgorithm()
         {
 
